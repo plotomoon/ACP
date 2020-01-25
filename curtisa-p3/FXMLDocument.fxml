@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="p3.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="runHorse" layoutX="55.0" layoutY="20.0" mnemonicParsing="false" onAction="#runHorse" text="Run Race" />
+      <Button fx:id="resetHorse" layoutX="278.0" layoutY="20.0" mnemonicParsing="false" onAction="#resetHorse" text="Reset Race" />
+      <Button fx:id="quitHorse" layoutX="489.0" layoutY="20.0" mnemonicParsing="false" onAction="#quitHorse" text="Quit Program" />
+      <Pane layoutX="17.0" layoutY="90.0" prefHeight="401.0" prefWidth="560.0">
+         <children>
+            <ImageView fx:id="H1" fitHeight="52.0" fitWidth="52.0" layoutX="32.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../horses/horse.jpg" />
+               </image></ImageView>
+            <ImageView fx:id="H2" fitHeight="52.0" fitWidth="52.0" layoutX="32.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../horses/horse.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="H3" fitHeight="52.0" fitWidth="52.0" layoutX="32.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../horses/horse.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="H4" fitHeight="52.0" fitWidth="52.0" layoutX="32.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../horses/horse.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="H5" fitHeight="52.0" fitWidth="52.0" layoutX="32.0" layoutY="331.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../horses/horse.jpg" />
+               </image>
+            </ImageView>
+            <Line endX="-100.0" endY="355.0" layoutX="197.0" layoutY="35.0" startX="-100.0" />
+            <Line endX="41.0" endY="333.0" layoutX="519.0" layoutY="61.0" startX="41.0" startY="-29.0" />
+            <Text layoutX="86.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start" />
+            <Text layoutX="549.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Finish" />
+         </children></Pane>
+    </children>
+</AnchorPane>

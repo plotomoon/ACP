@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane id="AnchorPane" prefHeight="405.0" prefWidth="349.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="p4.FXMLDocumentController">
+   <children>
+      <Pane fx:id="pane0" layoutX="42.0" layoutY="46.0" onMouseClicked="#colorPane0" prefHeight="76.0" prefWidth="77.0" />
+      <Line endX="132.0" layoutX="142.0" layoutY="122.0" startX="-100.0" />
+      <Line endX="131.0" endY="-1.0" layoutX="142.0" layoutY="202.0" startX="-100.0" />
+      <Line endX="-100.0" endY="144.0" layoutX="296.0" layoutY="135.0" startX="-100.0" startY="-89.0" />
+      <Line endX="-100.0" endY="144.0" layoutX="219.0" layoutY="135.0" startX="-100.0" startY="-89.0" />
+      <Line endX="131.0" endY="-1.0" layoutX="143.0" layoutY="46.0" startX="-100.0" />
+      <Line endX="131.0" endY="-1.0" layoutX="142.0" layoutY="280.0" startX="-100.0" />
+      <Pane fx:id="pane1" layoutX="119.0" layoutY="46.0" onMouseClicked="#colorPane1" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane5" layoutX="196.0" layoutY="125.0" onMouseClicked="#colorPane5" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane4" layoutX="119.0" layoutY="125.0" onMouseClicked="#colorPane4" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane3" layoutX="42.0" layoutY="125.0" onMouseClicked="#colorPane3" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane6" layoutX="41.0" layoutY="201.0" onMouseClicked="#colorPane6" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane7" layoutX="120.0" layoutY="201.0" onMouseClicked="#colorPane7" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane8" layoutX="197.0" layoutY="201.0" onMouseClicked="#colorPane8" prefHeight="76.0" prefWidth="77.0" />
+      <Pane fx:id="pane2" layoutX="196.0" layoutY="46.0" onMouseClicked="#colorPane2" prefHeight="76.0" prefWidth="77.0" />
+      <Line endX="45.0" endY="132.0" layoutX="229.0" layoutY="145.0" startX="48.0" startY="-100.0" />
+      <Line endX="45.0" endY="132.0" layoutX="-6.0" layoutY="145.0" startX="48.0" startY="-100.0" />
+   </children>
+</AnchorPane>
